@@ -1,0 +1,284 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #F0E5D6;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #242A5C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+    -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+    box-shadow: 0px 1px 20px #6B6B6B;
+}
+nav h3 {
+    color: #F2DDC2;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    color: #D6323E;
+}
+nav a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:hover {
+    color: #F0E5D6;
+    text-decoration: underline;
+}
+nav ul {
+    margin-right: 20px;
+    color: #F0E5D6;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 0% center;
+    background-image: url(dbpix-helen-of-troy-tmagArticle.jpg);
+}
+header h1 {
+    color: #F2DDC2;
+    font-size: 77px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+    line-height: 95px;
+    font-style: italic;
+}
+nav ul {
+    color: #D6323E;
+}
+
+header a:link {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:visited {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:hover {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #550E57;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #F4F4F4;
+  text-decoration: none;
+}
+article {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+article h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    color: #242A5C;
+}
+.container1 .wow.fadeInLeft {
+    background-color: #F0E5D6;
+    color: #242A5C;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.container1 {
+    display: flex;
+    width: 70%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+}
+.container1 .left {
+  flex: 1;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+.container1 .right {
+  flex: 1;
+  background-image: url(assets/program.jpg);
+  border-radius: 20px;
+  background-position: center center;
+  margin-left: 10px;
+}
+article p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.container2 {
+    display: flex;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 350px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+  margin: 5px;
+}
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #242A5C;
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+    color: #F2DDC2;
+}
+nav ul li {
+    color: #F2DDC2;
+}
+nav li {
+    color: #D6323E;
+}
+
+article h3 {
+    color: #242A5C;
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-size: large;
+}
+.container2 .right img {
+    width: 220px;
+    height: 252px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container4 {
+    width: 70%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 145px;
+
+}
+
+article#a04 {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-image: url(The%20Odyssey_%20An%20Introduction%20to%20Homer%27s%20Epic%20Poem.jpg);
+    background-size: cover;
+    width: 112%;
+    height: 221px;
+    align-content: center;
+    background-position: center center;
+}
+article#a02 {
+    background-image: url(%E6%B2%B3%E9%A6%AC%E8%83%8C%E6%99%AF.jpeg);
+    background-size: cover;
+
+}
+.container3 .left img {
+    background-color: #4E688D;
+    border-radius: 20px;
+    height: 195px;
+    width: 267px;
+    display: flex;
+    margin-top: -54px;
+}
+.container3 .right h3 {
+    background-color: #242A5C;
+    color: #F0E5D6;
+    width: 617px;
+    height: 197px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    margin-left: 33px;
+}
+
+
+.container2 .left.wow.fadeInLeft {
+    background-color: #F0E5D6;
+    border-radius: 20px;
+    padding-top: 31px;
+    margin-right: 33px;
+    height: 63%;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5 .wow.fadeInUpBig {
+    background-color: #4E688D;
+    border-radius: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #F0E5D6;
+    width: 855px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
